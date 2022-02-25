@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+    <title>Inicio ESPOCH</title>
+    <style type="text/css" media="screen">
+        @import './form-style.css';
+    </style>
+</head>
+<body>
+    
+    <nav class="navbar">
+       <h2 class="nav-option">Inicio</h2>
+       <h2 class="nav-option">Espoch</h2>
+       <h2 class="nav-option">Facultades</h2>
+       <h2 class="nav-option">Institución</h2>
+       <h2 class="nav-option">Investigación</h2>
+       <h2 class="nav-option">Servicios</h2>
+       <h2 class="nav-option">Transparencia</h2> 
+    </nav>
+    <section class="section-form">
+        <div class="section-form-center">
+            <h2>SOLICITUD DE ORDENES DE PAGO</h2>
+            <div class="search-doc">
+                <form action="">
+                    <label for="document">TIPO DE DOCUMENTO: </label>
+                    <select name="tipe-document" id="document">
+                        <option value="cedula">CEDULA</option>
+                        <option value="pasaporte">PASAPORTE</option>
+                        <option value="venta-consumidor-final">VENTA A CONSUMIDOR FINAL</option>
+                    </select title="tipo-documento">
+                    <label for="buscar-documento">BUSCAR: </label>
+                    <input type="text" id="buscar-documento" placeholder="1727898520" class="inputbuscar">
+                    <img src="./icon/search-sharp.svg" alt="boton-buscar-documento">
+                </form>
+            </div>
+            <div class="datos">
+                <section>
+                    <label for="documento">DOCUMENTO</label>
+                    <input title="numero-documento" type="text" id="documento">
+                    <label for="corrreo">CORREO ELECTRÓNICO INSTITUCIONAL</label>
+                    <input title="dir-correo" type="text" id="correo">
+                    <label for="direction">DIRECCIÓN</label>
+                    <input type="text" id="direction">
+                </section>
+                <section>
+                    <label for="nombre">NOMBRE/RAZÓN SOCIAL</label>
+                    <input title="nombres" type="text" id="nombre">
+                    <label for="correo-alt">CORREO ELECTRÓNICO ALTERNATIVO</label>
+                    <input title="dir-correo-alt" type="text" id="correo-alt">
+                    <label for="celular">CELULAR</label>
+                    <input title="num-celular" type="text" id="celular">
+                </section>        
+            </div>
+            <div class="restriction">
+                <ul>
+                    <li>Ingrese su documento para verificar su información</li>
+                    <li>Si exiten campos vacios por favor ingrese la información</li>
+                    <li>Campos habilitados para editar la información (Dirección,Correo Alternativo y Teléfono)</li>
+                    <li>Realizar click en el botón validar información para activar el botón siguiente</li>
+                    <li>El tiempo de vigencia de cada solicitud es 48 horas para ser aprobada por la dependecia seleccionada</li>
+                    <li>Una vez aprobada la solicitud tiene 48 horas para pagar en el banco</li>
+                </ul>
+            </div>
+        </div>
+        <div class="button">
+            <input type="submit" value="Validar información">
+        </div>
+    </section>
+    <footer>   
+    </footer>
+</body>
+</html>

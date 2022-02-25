@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+    <title>Inicio ESPOCH</title>
+    <style type="text/css" media="screen">
+        @import './contact-style.css';
+
+        
+    </style>
+</head>
+<body>
+    
+    <nav class="navbar">
+       <h2 class="nav-option">Inicio</h2>
+       <h2 class="nav-option">Espoch</h2>
+       <h2 class="nav-option">Facultades</h2>
+       <h2 class="nav-option">Institución</h2>
+       <h2 class="nav-option">Investigación</h2>
+       <h2 class="nav-option">Servicios</h2>
+       <h2 class="nav-option">Transparencia</h2> 
+    </nav>
+    <section class="section-form">
+        <div class="section-form-center">
+            <h2>CONTACTOS</h2>
+            <form action="">
+                <label for="documento">DOCUMENTO</label>
+                <input title="num-documento" type="text" id="documento" placeholder="172789402">
+                <label for="nombre">NOMBRE</label>
+                <input title="nombres" type="text" id="nombre" placeholder="nombres - apellidos">
+                <label for="corrreo">CORREO ELECTRÓNICO INSTITUCIONAL</label>
+                <input title="dir-correo" type="text" id="correo" placeholder="correo@server.com">
+                <label for="telefoono">TELEFONO</label>
+                <input title="num-telefono" type="text" id="telefono" placeholder="0993852456">
+                <label for="message">MENSAJE</label>
+                <textarea rows="4" cols="50" name="comment" form="usrform" id="message" placeholder="Escriba aqui...">
+                </textarea>
+            </form>
+            <div class="restriction">
+                <ul>
+                    <li>Si exiten campos vacios por favor ingrese la información</li>
+                    <li>Campos habilitados para editar la información (Dirección,Correo Alternativo y Teléfono)</li>
+                    <li>Realizar click en el botón enviar</li>
+                    <li>El tiempo de vigencia de cada solicitud es 48 horas para ser aprobada por la dependecia seleccionada</li>
+                </ul>
+            </div>
+        </div>
+        <div class="button">
+            <input type="submit" value="ENVIAR">
+        </div>
+    </section>
+    <footer>   
+    </footer>
+</body>
+</html>
